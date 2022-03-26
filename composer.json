@@ -1,0 +1,42 @@
+{
+    "name": "palee/common-sdk",
+    "description": "Common module in PALEE project",
+    "keywords": [
+      "palee",
+      "common"
+    ],
+    "license": "",
+    "authors": [
+      {
+        "name": "Electric",
+        "email": "huydien.it@gmail.com"
+      }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+      "psr-4": {
+        "Common\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "files": [],
+      "psr-4": {
+
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+            "Common\\CommonServiceProvider"
+        ]
+      }
+    },
+    "archive" : {
+      "exclude": []
+    }
+  }
